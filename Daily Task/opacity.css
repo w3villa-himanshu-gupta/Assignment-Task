@@ -1,0 +1,39 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 600px;
+    height: 400px;
+    opacity: 0.3;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 600px;
+    height: 400px;
+    margin-top: -100px;
+    opacity: 0.5;
+}
+.parent2{
+    background-color: yellowgreen;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.child2{
+    background-color: crimson;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    
+ 
+}

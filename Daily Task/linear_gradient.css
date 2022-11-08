@@ -1,0 +1,72 @@
+.container{
+    border: 2px solid red;
+}
+.hk{
+    margin: 50px;
+    Color:Blue;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px yellowgreen;
+    box-shadow: 10px 10px 8px 3px blue inset,10px 10px 8px 3px purple;
+}
+.left_to_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to right, pink, white, red,yellow);
+}
+.right_to_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to left,pink, white, red,yellow);
+
+}
+.top_to_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to bottom, yellowgreen, white, red,blue);
+
+}
+.bottom_to_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to top, yellow, white, red,blue);
+
+}
+.left_to_bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to bottom right,green, white, red,blue);
+
+}
+.left_to_top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    opacity: 0.7;
+    background-image: linear-gradient(to top right,yellow, white, red);
+
+}
+.overflow{
+    margin-left: 50px;
+    background-color: aqua;
+   
+    border: 2px solid red;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
